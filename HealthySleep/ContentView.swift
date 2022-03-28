@@ -6,17 +6,8 @@
 //
 
 
-/*
- 
- When do they want to wake up?
- Roughly how many hours of sleep do they want?
- How many cups of coffee do they drink per day?
- */
-
-
 import CoreML
 import SwiftUI
-import UIKit
 
 struct ContentView: View {
     @State private var wakeUp = defaultWakeTime
